@@ -8,7 +8,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 02  | Progress Steps                        | ✅                  |
 | 03  | Rotating Navigation Animation         | ✅                  |
 | 04  | Hidden Search Widget                  | ✅                  |
-| 05  | Blurry Loading                        |                     |
+| 05  | Blurry Loading                        | ✅                  |
 | 06  | Scroll Animation                      |                     |
 | 07  | Split Landing Page                    |                     |
 | 08  | Form Wave                             |                     |
