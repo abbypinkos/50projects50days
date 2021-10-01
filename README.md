@@ -13,7 +13,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 07  | Split Landing Page                    | ✅                  |
 | 08  | Form Wave Animation                   | ✅                  |
 | 09  | Sound Board                           | ✅                  |
-| 10  | Dad Jokes                             |                     |
+| 10  | Dad Jokes                             | ✅                  |
 | 11  | Event Keycodes                        |                     |
 | 12  | Faq Collapse                          |                     |
 | 13  | Random Choice Picker                  |                     |
