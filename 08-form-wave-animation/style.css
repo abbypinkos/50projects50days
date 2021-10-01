@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Open+Sans&display=swap');
+
+:root {
+  --light-blue: rgb(155, 196, 209);
+  --lighter-blue: rgb(184, 217, 228);
+  --dark-grey: rgb(80, 80, 80);
+  --light-grey: rgb(210, 210, 210);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to top, #f0edeb, #fff);
+  color: var(--dark-grey);
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+}
+
+.main {
+  padding: 50px 40px;
+  margin-bottom: 30px;
+}
+
+.container {
+  background-color: #fff;
+  border: solid 1px var(--light-grey);
+  width: 400px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.container a {
+  text-decoration: none;
+  color: var(--light-blue);
+  font-weight: bold;
+}
+
+.container h1 {
+  font-family: 'Birthstone', cursive;
+  font-size: 3.25rem;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background: var(--lighter-blue);
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.line {
+    background-color: #dbdbdb;
+    height: 1px;
+    top: .45em;
+}
+
+.text {
+  padding: 10px;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px var(--light-grey) solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 15px;
+  color: var(--dark-grey)
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: var(--light-blue);
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 15px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: var(--light-blue);
+  transform: translateY(-30px);
+}

@@ -11,7 +11,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 05  | Blurry Loading                        | ✅                  |
 | 06  | Scroll Animation                      | ✅                  |
 | 07  | Split Landing Page                    | ✅                  |
-| 08  | Form Wave                             |                     |
+| 08  | Form Wave Animation                   | ✅                  |
 | 09  | Sound Board                           |                     |
 | 10  | Dad Jokes                             |                     |
 | 11  | Event Keycodes                        |                     |
