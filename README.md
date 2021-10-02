@@ -16,7 +16,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 10  | Dad Jokes                             | ✅                  |
 | 11  | Event Keycodes                        | ✅                  |
 | 12  | FAQ Collapse                          | ✅                  |
-| 13  | Random Choice Picker                  |                     |
+| 13  | Random Choice Picker                  | ✅                  |
 | 14  | Animated Navigation                   |                     |
 | 15  | Incrementing Counter                  |                     |
 | 16  | Drink Water                           |                     |
