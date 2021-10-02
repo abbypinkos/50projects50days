@@ -18,7 +18,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 12  | FAQ Collapse                          | ✅                  |
 | 13  | Random Choice Picker                  | ✅                  |
 | 14  | Animated Navigation                   | ✅                  |
-| 15  | Incrementing Counter                  |                     |
+| 15  | Incrementing Counter                  | ✅                  |
 | 16  | Drink Water                           |                     |
 | 17  | Movie App                             |                     |
 | 18  | Background Slider                     |                     |
