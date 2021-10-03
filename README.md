@@ -21,7 +21,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 15  | Incrementing Counter                  | ✅                  |
 | 16  | Drink Water                           | ✅                  |
 | 17  | Movie App                             | ✅                  |
-| 18  | Background Slider                     |                     |
+| 18  | Background Slider                     | ✅                  |
 | 19  | Theme Clock                           |                     |
 | 20  | Button Ripple Effect                  |                     |
 | 21  | Drag N Drop                           |                     |
