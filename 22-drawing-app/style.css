@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f0ec;
+  color: #2c2c2c;
+  font-family: 'Overpass Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+canvas {
+  border: 2px solid #A0b0BD;
+  background-color: #fff;
+}
+
+.toolbox {
+  background-color: #A0b0BD;
+  display: flex;
+  gap: .25rem;
+  width: 754px;
+  padding: 1rem;
+}
+
+.toolbox > * {
+  background-color: #f3f0ec;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+}
+
+.toolbox > *:last-child {
+  margin-left: auto;
+}
+
+.toolbox button {
+  color: #2c2c2c;
+}
