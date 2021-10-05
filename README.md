@@ -30,7 +30,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 24  | Content Placeholder                   | ✅                  |
 | 25  | Sticky Navbar                         | ✅                  |
 | 26  | Double Vertical Slider                | ✅                  |
-| 27  | Toast Notification                    |                     |
+| 27  | Toast Notification                    | ✅                  |
 | 28  | Github Profiles                       |                     |
 | 29  | Double Click Heart                    |                     |
 | 30  | Auto Text Effect                      |                     |
