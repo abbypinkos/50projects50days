@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #57606a;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+}
+
+.user-form {
+  width: 100%;
+  max-width: 45rem;
+}
+
+.user-form input {
+  width: 100%;
+  display: block;
+  background-color: #f6f8fa;
+  border: none;
+  border-radius: 10px;
+  color: #57606a;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: inherit;
+  font-size: 1rem;
+  box-shadow: 0 1px 0 rgba(27,31,36,0.04), inset 0 1px 0 rgba(255,255,255,0.25);
+}
+
+.user-form input::placeholder {
+  color: #57606a;
+}
+
+.user-form input:focus {
+  color: #57606a;
+  outline: none;
+}
+
+.card {
+  max-width: 45rem;
+  background-color: #fff;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 rgba(27,31,36,0.04), inset 0 1px 0 rgba(255,255,255,0.25);
+  display: flex;
+  padding: 3rem;
+  margin: 0 1.5rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 2px solid #d0d7de;
+  height: 150px;
+  width: 150px;
+}
+
+.user-info {
+  color: #57606a;
+  margin-left: 2rem;
+}
+
+.user-info h2 {
+  margin-top: 0;
+  color: #0969da;
+}
+
+.user-info ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 400px;
+}
+
+.user-info ul li {
+  display: flex;
+  align-items: center;
+}
+
+.user-info ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.repo {
+  text-decoration: none;
+  color: #57606a;
+  border: 1px #d0d7de solid;
+  border-radius: 2rem;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.repo:hover {
+  background-color: #f6f8fa;
+}
+
+@media(max-width: 500px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-form {
+    max-width: 400px;
+  }
+}
