@@ -37,7 +37,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 31  | Password Generator                    | ✅                  |
 | 32  | Good Cheap Fast                       | ✅                  |
 | 33  | Notes App                             | ✅                  |
-| 34  | Animated Countdown                    |                     |
+| 34  | Animated Countdown                    | ✅                  |
 | 35  | Image Carousel                        |                     |
 | 36  | Hoverboard                            |                     |
 | 37  | Pokedex                               |                     |
