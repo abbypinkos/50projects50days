@@ -40,8 +40,8 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 34  | Animated Countdown                    | ✅                  |
 | 35  | Image Carousel                        | ✅                  |
 | 36  | Hoverboard                            | ✅                  |
-| 37  | Pokedex                               | ✅                  |
-| 38  | Mobile Tab Navigation                 |                     |
+| 37  | Pokédex                               | ✅                  |
+| 38  | Mobile Tab Navigation                 | ✅                  |
 | 39  | Password Strength Background          |                     |
 | 40  | 3d Background Boxes                   |                     |
 | 41  | Verify Account Ui                     |                     |
