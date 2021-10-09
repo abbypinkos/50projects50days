@@ -45,7 +45,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 39  | Password Strength Background          | ✅                  |
 | 40  | 3d Background Boxes                   | ✅                  |
 | 41  | Verify Account UI                     | ✅                  |
-| 42  | Live User Filter                      |                     |
+| 42  | Live User Filter                      | ✅                  |
 | 43  | Feedback UI Design                    |                     |
 | 44  | Custom Range Slider                   |                     |
 | 45  | Netflix Mobile Navigation             |                     |

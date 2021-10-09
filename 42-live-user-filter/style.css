@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fd;
+  color: #535353;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  background-color: #7095db;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.header input {
+  background-color: rgba(0, 0, 0, 0.15);
+  font-family: inherit;
+  font-size: 12px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.header input:focus {
+  outline: none;
+}
+
+.header input::placeholder {
+  font-size: 12px;
+  color: #fff;
+}
+
+.container {
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+}
+
+.title {
+  font-size: 15px;
+  margin: 0;
+}
+
+.subtitle {
+  display: inline-block;
+  margin: 5px 0 20px;
+  opacity: 0.8;
+}
+
+.title, .subtitle {
+  padding-left: 13px;
+}
+
+.user-list {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: #ffffff;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #6e6e6e;
+}
+
+.user-list li {
+  display: flex;
+  align-items: center;
+  padding: 23px;
+}
+
+.user-list img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+}
+
+.user-list .user-info {
+  margin-left: 10px;
+}
+
+.user-list .user-info h4 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.user-list .user-info p {
+  color: #8f8f8f;
+  font-size: 11px;
+  margin: 2px;
+
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+.user-list li.hide {
+  display: none;
+}
