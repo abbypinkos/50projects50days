@@ -48,7 +48,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 42  | Live User Filter                      | ✅                  |
 | 43  | Feedback UI Design                    | ✅                  |
 | 44  | Custom Range Slider                   | ✅                  |
-| 45  | Netflix Mobile Navigation             |                     |
+| 45  | Mobile Navigation                     | ✅                  |
 | 46  | Quiz App                              |                     |
 | 47  | Testimonial Box Switcher              |                     |
 | 48  | Random Image Feed                     |                     |
