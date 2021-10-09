@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f8;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+}
+
+.quiz-container {
+  border-radius: 1rem;
+  background-color: #fff;
+  width: 600px;
+  overflow: hidden;
+  box-shadow: 0px 3px 25px rgb(207 214 228);
+}
+
+.quiz-header,
+.result {
+  color: #252525;
+  background: bottom 4.55rem right 4.55rem  / 15% no-repeat url('https://cdn-icons-png.flaticon.com/512/5541/5541542.png');
+  opacity: 0.5;
+  padding: 4rem;
+}
+
+.result {
+  background: bottom 3.5rem right 4.55rem  / 15% no-repeat url('https://cdn-icons-png.flaticon.com/512/5541/5541471.png');
+  padding: 10rem;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 40px;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  background-color: #b2c9e6;
+  color: #fff;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  padding: 1.3rem;
+}
+
+button:hover {
+  background-color: #acc4e0;
+}
+
+button:focus {
+  outline: none;
+  background-color: #a1bbd8;
+}
