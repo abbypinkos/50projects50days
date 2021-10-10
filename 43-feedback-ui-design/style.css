@@ -11,6 +11,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 10px;
   overflow: hidden;
   height: 100vh;
   margin: 0;
@@ -85,4 +87,14 @@ body {
   color: rgb(255, 187, 179);
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+.attribute {
+  color: #b3c1c5;
+  font-size: .7rem;
+}
+
+.attribute a {
+  text-decoration: underline;
+  color: inherit;
 }
