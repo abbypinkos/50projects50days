@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main-container {
+  overflow-y: hidden;
+  background-color: #ffffff;
+  text-align: left;
+  border: 1px solid #efefef;
+  max-width: 906px;
+}
+
+.time {
+  padding: 10px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search-suggest {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: row;
+  margin-left: 16px;
+}
+
+.search button {
+  background-color: #ffffff;
+  color: #262626;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  word-spacing: 2px;
+  border: .13rem solid #efefef;
+  border-radius: 1rem;
+  padding: 20px 75px;
+  margin: 15px 8px;
+}
+
+i {
+  font-size: 1.3rem;
+  color: #8f8f91;
+  padding-right: 15px;
+}
+
+p {
+  background-color: #efefef;
+  color: #8f8f91;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 20px;
+  width: 95%;
+  border-radius: 1rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  flex-wrap: wrap;
+  padding-bottom: 85px;
+  max-width: 904px;
+}
+
+.container img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+}

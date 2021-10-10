@@ -51,6 +51,6 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 45  | Mobile Navigation                     | ✅                  |
 | 46  | Quiz App                              | ✅                  |
 | 47  | Testimonial Box Switcher              | ✅                  |
-| 48  | Random Image Feed                     |                     |
+| 48  | Random Image Feed                     | ✅                  |
 | 49  | Todo List                             |                     |
 | 50  | Insect Catch Game                     |                     |
