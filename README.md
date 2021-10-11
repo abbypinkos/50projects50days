@@ -43,7 +43,7 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 37  | Pokédex                               | ✅                  |
 | 38  | Mobile Tab Navigation                 | ✅                  |
 | 39  | Password Strength Background          | ✅                  |
-| 40  | 3d Background Boxes                   | ✅                  |
+| 40  | 3D Background Boxes                   | ✅                  |
 | 41  | Verify Account UI                     | ✅                  |
 | 42  | Live User Filter                      | ✅                  |
 | 43  | Feedback UI Design                    | ✅                  |
@@ -52,5 +52,5 @@ These are projects made in the course [50 Projects in 50 Days](https://50project
 | 46  | Quiz App                              | ✅                  |
 | 47  | Testimonial Box Switcher              | ✅                  |
 | 48  | Random Image Feed                     | ✅                  |
-| 49  | Todo List                             |                     |
+| 49  | Todo List                             | ✅                  |
 | 50  | Insect Catch Game                     |                     |
